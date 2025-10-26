@@ -1,1 +1,11 @@
+## Table_1
+CREATE OR REPLACE TABLE TABLE_1 (ID VARCHAR2(10));
 
+INSERT INTO TABLE_1 (ID) VALUES ('1'), ('1'), ('1'),('2'),('3'),('3'),(NULL),('A');
+
+## Table_2
+CREATE OR REPLACE TABLE TABLE_2 (ID VARCHAR2(10));
+
+INSERT INTO TABLE_2 (ID) VALUES ('1'), ('1'), ('2'),('2'),('4'),('A'),(NULL),(NULL);
+
+SELECT * FROM TABLE_2;
